@@ -1,0 +1,19 @@
+{
+    "frameworks": {
+      "ext": {
+        "path": "ext",  // Path relative to workspace root where ExtJS framework is located
+        "version": "7.6.0.41"  // Version of ExtJS you are using
+      }
+      // Add more frameworks if needed
+    },
+  
+    "build": {
+      "dir": "${workspace.dir}/build"
+    },
+  
+    "packages": {
+      "dir": "${workspace.dir}/packages/local,${workspace.dir}/packages",
+      "extract": "${workspace.dir}/packages/remote"
+    }
+  }
+  
